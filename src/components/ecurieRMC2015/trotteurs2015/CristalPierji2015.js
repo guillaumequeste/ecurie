@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
 
-class PanDiStelle extends Component {
+class CristalPierji2015 extends Component {
   
     render () {
         return (
             <div>
-                <h1>Pan Di Stelle</h1>
+                <h1>Cristal Pierji</h1>
             </div>
         )
     }
 }
 
-export default PanDiStelle
+export default CristalPierji2015

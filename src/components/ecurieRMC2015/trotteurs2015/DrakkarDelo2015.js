@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
 
-class PanDiStelle extends Component {
+class DrakkarDelo2015 extends Component {
   
     render () {
         return (
             <div>
-                <h1>Pan Di Stelle</h1>
+                <h1>Drakkar Delo</h1>
             </div>
         )
     }
 }
 
-export default PanDiStelle
+export default DrakkarDelo2015
