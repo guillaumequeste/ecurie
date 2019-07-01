@@ -1,13 +1,14 @@
-.bodyApp {
+.body2013 {
     height: 100vh;
     background-color: #231F20;
     display: flex;
 }
 
-.divApp {
+.div2013 {
     margin: auto;
 }
 
-.titreApp {
+.titre2013 {
     color: white;
+    text-align: center;
 }
