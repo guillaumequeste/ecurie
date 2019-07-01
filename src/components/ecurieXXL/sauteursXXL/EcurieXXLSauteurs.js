@@ -7,7 +7,7 @@ class EcurieXXLSauteurs extends Component {
         return (
             <div>
                 <h1>Ecurie XXL Sauteurs</h1>
-                <Link to="/belle_promesse">Belle Promesse</Link>
+                <Link to="/belle_promesse/">Belle Promesse</Link>
                 <Link to="/borenis">Borenis</Link>
                 <Link to="/eclair_etincelle">Eclair Etincelle</Link>
                 <Link to="/elcondor_forlonge">Elcond'Or Forlonge</Link>

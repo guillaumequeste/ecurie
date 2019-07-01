@@ -3,9 +3,8 @@ import ReactDOM from 'react-dom'
 import './index.css'
 import App from './App'
 import * as serviceWorker from './serviceWorker'
-import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import Home from './components/Home'
 import EcurieRMC2013 from './components/ecurieRMC2013/EcurieRMC2013'
 import EcurieRMC2014 from './components/ecurieRMC2014/EcurieRMC2014'
 import EcurieRMC2015 from './components/ecurieRMC2015/EcurieRMC2015'
@@ -90,13 +89,14 @@ import ErrorNotFound from './components/ErrorNotFound'
 const Root = () => (
     <Router>
         <Switch>
-            <Route exact path='/' component={Home}/>
+            <Route exact path='/' component={App}/>
 
             <Route path='/ecurieRMC2013' component={EcurieRMC2013}/>
             <Route path='/ecurieRMC2014' component={EcurieRMC2014}/>
             <Route path='/ecurieRMC2015' component={EcurieRMC2015}/>
             <Route path='/ecurieClubRMC' component={EcurieClubRMC}/>
             <Route path='/ecurieXXL' component={EcurieXXL}/>
+            <Route path='/liste' component={Liste}/>
 
             <Route path='/galopeurs2013' component={EcurieRMC2013Galopeurs}/>
             <Route path='/galopeurs2014' component={EcurieRMC2014Galopeurs}/>
@@ -159,7 +159,7 @@ const Root = () => (
             <Route path='/drakkar_deloClub' component={DrakkarDeloClub}/>
             <Route path='/eclipse_somolli' component={EclipseSomolli}/>
 
-            <Route path='/belle_promesse' component={BellePromesse}/>
+            <Route path='/belle_promesse/' component={BellePromesse}/>
             <Route path='/borenis' component={Borenis}/>
             <Route path='/eclair_etincelle' component={EclairEtincelle}/>
             <Route path='/elcondor_forlonge' component={ElcondorForlonge}/>
@@ -174,7 +174,6 @@ const Root = () => (
             <Route path='/korum' component={Korum}/>
             <Route path='/master_gold' component={MasterGold}/>
             
-            <Route path='/liste' component={Liste}/>
             <Route path='/trotteurs/auteur' component={Auteur}/>
             <Route path='/trotteurs/cristal_pierji' component={CristalPierji}/>
             <Route path='/trotteurs/drakkar_delo' component={DrakkarDelo}/>

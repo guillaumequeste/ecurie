@@ -1,0 +1,16 @@
+.backgroundNavbar {
+    background-color: #EE1F27;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-weight: bold;
+    font-style: italic;
+    border-right: solid;
+    padding-right: 2%;
+}
+
+.nav-link {
+    color: white !important;
+    font-weight: bold;
+}
