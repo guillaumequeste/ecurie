@@ -4,11 +4,41 @@
     display: flex;
 }
 
-.div2013 {
+.liens {
     margin: auto;
 }
 
 .titre2013 {
     color: white;
+    text-align: center;
+    padding-bottom: 20%;
+}
+
+@media screen and (max-width: 1000px) {
+    .titre2013 {
+        display: none;
+    }
+}
+
+.casaque2013 {
+    width: 50px;
+    padding: 0 0 5% 3%;
+}
+
+.div2013 {
+    display: flex;
+}
+
+.card {
+    margin: auto;
+    width: 150px;
+}
+
+.card-img-top {
+    width: 150px;
+}
+
+.card-body {
+    background-color: grey;
     text-align: center;
 }

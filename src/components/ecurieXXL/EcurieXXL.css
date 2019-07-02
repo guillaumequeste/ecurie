@@ -1,0 +1,44 @@
+.bodyXXL {
+    height: 100vh;
+    background-color: #231F20;
+    display: flex;
+}
+
+.liens {
+    margin: auto;
+}
+
+.titreXXL {
+    color: white;
+    text-align: center;
+    padding-bottom: 20%;
+}
+
+@media screen and (max-width: 1000px) {
+    .titreXXL {
+        display: none;
+    }
+}
+
+.casaqueXXL {
+    width: 50px;
+    padding: 0 0 5% 3%;
+}
+
+.div2XXL {
+    display: flex;
+}
+
+.card {
+    margin: auto;
+    width: 150px;
+}
+
+.card-img-top {
+    width: 150px;
+}
+
+.card-body {
+    background-color: grey;
+    text-align: center;
+}
