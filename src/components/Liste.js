@@ -10,7 +10,7 @@ class Liste extends Component {
             <div className="bodyListe">
                 <Header />
                 <h1 className="titreListe">Liste des chevaux</h1>
-                <div className="row">
+                <div className="row rowListe">
                     <div className="col-sm-3">
                         <p><Link to="/al_rassoul" className="lienCheval">Al Rassoul</Link></p>
                         <p><Link to="/arancio" className="lienCheval">Arancio</Link></p>

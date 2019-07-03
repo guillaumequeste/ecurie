@@ -11,8 +11,8 @@
     padding-bottom: 5%;
 }
 
-.row {
-    padding-left: 10%;
+.rowListe {
+    padding-left: 10% !important;
 }
 
 .lienCheval {
