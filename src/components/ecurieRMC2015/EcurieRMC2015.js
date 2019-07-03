@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import Header from '../Header'
 import './EcurieRMC2015.css'
 
-class EcurieRMC2014 extends Component {
+class EcurieRMC2015 extends Component {
   
     render () {
         return (
@@ -21,7 +21,7 @@ class EcurieRMC2014 extends Component {
                     <div className="card">
                         <img className="card-img-top" src={require("../../img/trot.jpg")} alt="trot"/>
                         <div className="card-body">
-                                <Link to="/galopeurs2015" className="btn btn-primary">Galopeurs 2015</Link>
+                                <Link to="/trotteurs2015" className="btn btn-primary">Trotteurs 2015</Link>
                         </div>
                     </div>
                 </div>
@@ -31,4 +31,4 @@ class EcurieRMC2014 extends Component {
     }
 }
 
-export default EcurieRMC2014
+export default EcurieRMC2015
