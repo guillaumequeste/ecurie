@@ -1,0 +1,27 @@
+.bodyListe {
+    min-height: 100vh;
+    background-color: #231F20;
+    padding: 0 2% 0 2%;
+}
+
+.titreListe {
+    color: white;
+    text-align: center;
+    padding-top: 12vh;
+    padding-bottom: 5%;
+}
+
+.row {
+    padding-left: 10%;
+}
+
+.lienCheval {
+    color: white;
+    text-decoration: none;
+}
+
+.lienCheval:hover {
+    color: yellow;
+    text-decoration: none;
+    font-size: 1.5em;
+}
