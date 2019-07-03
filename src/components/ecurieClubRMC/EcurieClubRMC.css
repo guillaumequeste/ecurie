@@ -48,10 +48,12 @@
 .card {
     margin: auto;
     width: 150px;
+    height: 200px;
 }
 
 .card-img-top {
     width: 150px;
+    height: 100px;
 }
 
 .card-body {
