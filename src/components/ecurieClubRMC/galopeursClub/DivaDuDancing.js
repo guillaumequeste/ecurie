@@ -1,11 +1,16 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
+import Header from '../../Header'
+import './DivaDuDancing.css'
 
 class DivaDuDancing extends Component {
   
     render () {
         return (
-            <div>
-                <h1>Diva du Dancing</h1>
+            <div className="bodyChevalDivaDuDancing">
+                <Header />
+                <h1 className="nomCheval">Diva du Dancing</h1>
+                <img className="imgDetail" src={require("../../../img/ClubRMC/galopeursClub/diva/diva1.jpg")} alt="diva_du_dancing"/>
             </div>
         )
     }
