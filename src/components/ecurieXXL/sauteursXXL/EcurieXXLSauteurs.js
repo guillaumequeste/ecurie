@@ -44,9 +44,19 @@ class EcurieXXLSauteurs extends Component {
                     <div className="liens">
                         <div className="div2013">
                             <div className="card">
+                                <img className="card-img-top" src={require("../../../img/XXL/sauteursXXL/elcondor/elcondor1.jpg")} alt="elcondor_forlonge"/>
+                                <div className="card-body">
+                                    <Link to="/elcondor_forlonge" className="btn btn-primary">Elcond'Or Forlonge</Link>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="liens">
+                        <div className="div2013">
+                            <div className="card">
                                 <img className="card-img-top" src={require("../../../img/XXL/sauteursXXL/escort/escort1.jpg")} alt="escort_groove"/>
                                 <div className="card-body">
-                                    <Link to="/escort_groove" className="btn btn-primary">Escort Groove</Link>
+                                    <Link to="/escort_groove" className="btn btn-primary btnEscort">Escort'Groove</Link>
                                 </div>
                             </div>
                         </div>
@@ -56,7 +66,7 @@ class EcurieXXLSauteurs extends Component {
                             <div className="card">
                                 <img className="card-img-top" src={require("../../../img/XXL/sauteursXXL/everybody/everybody1.jpg")} alt="everybodywantsme"/>
                                 <div className="card-body">
-                                    <Link to="/everybodywantsme" className="btn btn-primary">Everybodywantsme</Link>
+                                    <Link to="/everybodywantsme" className="btn btn-primary btnEverybodywantsme">Everybodywantsme</Link>
                                 </div>
                             </div>
                         </div>
@@ -126,7 +136,7 @@ class EcurieXXLSauteurs extends Component {
                             <div className="card">
                                 <img className="card-img-top" src={require("../../../img/XXL/sauteursXXL/korum/korum1.jpg")} alt="korum_allen"/>
                                 <div className="card-body">
-                                    <Link to="/korum_allen" className="btn btn-primary">Korum</Link>
+                                    <Link to="/korum" className="btn btn-primary">Korum</Link>
                                 </div>
                             </div>
                         </div>

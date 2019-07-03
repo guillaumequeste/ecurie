@@ -9,7 +9,7 @@ class CristalPierjiClub extends Component {
         return (
             <div className="bodyChevalCristalPierjiClub">
                 <Header />
-                <h1 className="nomCheval">Cristal Pierji</h1>
+                <h1 className="nomCheval">Cristal Pierji (Club)</h1>
                 <img className="imgDetailCristalPierjiClub" src={require("../../../img/ClubRMC/trotteursClub/cristal/cristal1.jpg")} alt="cristal"/>
                 <p>44 courses</p>
                 <p>1 victoire à Cagnes</p>

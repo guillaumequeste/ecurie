@@ -44,6 +44,16 @@ class EcurieClubRMCTrotteurs extends Component {
                     <div className="liens">
                         <div className="div2013">
                             <div className="card">
+                                <img className="card-img-top" src={require("../../../img/ClubRMC/trotteursClub/drakkar/drakkar2.jpg")} alt="drakkar_delo"/>
+                                <div className="card-body">
+                                    <Link to="/drakkar_deloClub" className="btn btn-primary">Drakkar Delo</Link>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="liens">
+                        <div className="div2013">
+                            <div className="card">
                                 <img className="card-img-top" src={require("../../../img/ClubRMC/trotteursClub/eclipse/eclipse2.jpg")} alt="eclipse_somolli"/>
                                 <div className="card-body">
                                     <Link to="/eclipse_somolli" className="btn btn-primary">Eclipse Somolli</Link>

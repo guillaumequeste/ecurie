@@ -8,6 +8,20 @@
     margin: auto;
 }
 
-.titreApp {
+.divAccueil {
+    width: 200px;
+}
+
+.lienAccueil:hover {
+    text-decoration: none;
+}
+
+.accueil {
     color: white;
+    font-weight: bold;
+    padding-left: 5%;
+}
+
+.accueil:hover {
+    color: yellow;
 }

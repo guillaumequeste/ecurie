@@ -1,11 +1,26 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
+import Header from './Header'
 
 class DrakkarDelo extends Component {
   
     render () {
         return (
-            <div>
-                <h1>Drakkar Delo</h1>
+            <div className="bodyCheval">
+                <Header />
+                <h1 className="nomCheval">Drakkar Delo</h1>
+                <img className="imgDetail" src={require("../img/RMC2015/trotteurs2015/drakkar/drakkar2.jpg")} alt="drakkar_delo2"/>
+                <p>20 courses</p>
+                <p>1 victoire à Pornichet</p>
+                <p>6 places</p>
+                <div className="row">
+                    <div className="col-sm-3">
+                    <img className="imgDetail2" src={require("../img/RMC2015/trotteurs2015/drakkar/drakkar1.jpg")} alt="drakkar_delo1"/>
+                    </div>
+                    <div className="col-sm-3">
+                    <img className="imgDetail2" src={require("../img/RMC2015/trotteurs2015/drakkar/drakkar3.jpg")} alt="drakkar_delo3"/>
+                    </div>
+                </div>
             </div>
         )
     }

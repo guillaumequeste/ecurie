@@ -1,11 +1,16 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
+import Header from '../../Header'
+import './GueuleDeLoup.css'
 
 class GueuleDeLoup extends Component {
   
     render () {
         return (
-            <div>
-                <h1>Gueule de Loup</h1>
+            <div className="bodyChevalGueuleDeLoup">
+                <Header />
+                <h1 className="nomCheval">Gueule de Loup</h1>
+                <img className="imgDetailGueuleDeLoup" src={require("../../../img/XXL/sauteursXXL/gueule/gueule1.jpg")} alt="gueule_de_loup"/>
             </div>
         )
     }
