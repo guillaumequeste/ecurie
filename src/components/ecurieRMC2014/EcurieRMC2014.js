@@ -21,7 +21,7 @@ class EcurieRMC2014 extends Component {
                     <div className="card">
                         <img className="card-img-top" src={require("../../img/trot.jpg")} alt="trot"/>
                         <div className="card-body">
-                                <Link to="/galopeurs2014" className="btn btn-primary">Galopeurs 2014</Link>
+                                <Link to="/trotteurs2014" className="btn btn-primary">Trotteurs 2014</Link>
                         </div>
                     </div>
                 </div>

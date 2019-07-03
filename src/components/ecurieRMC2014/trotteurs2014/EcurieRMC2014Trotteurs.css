@@ -1,0 +1,49 @@
+.bodyGalopeurs2013 {
+    min-height: 100vh;
+    background-color: #231F20;
+    padding: 0 2% 0 2%;
+}
+
+.titreGalopeurs2013 {
+    color: white;
+    text-align: center;
+    padding-top: 12vh;
+    padding-bottom: 5%;
+}
+
+.cardsGalopeurs2013 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    min-height: 65vh;
+}
+
+.liens {
+    margin: auto;
+}
+
+@media screen and (max-width: 1000px) {
+    .titreGalopeurs2013 {
+        font-size: 0.8em;
+    }
+}
+
+.div2013 {
+    display: flex;
+}
+
+.card {
+    margin: auto;
+    width: 150px;
+    height: 200px;
+}
+
+.card-img-top {
+    width: 150px;
+    height: 100px;
+}
+
+.card-body {
+    background-color: grey;
+    text-align: center;
+}
