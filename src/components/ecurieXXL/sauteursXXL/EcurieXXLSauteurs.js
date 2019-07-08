@@ -14,7 +14,7 @@ class EcurieXXLSauteurs extends Component {
                     <div className="liens">
                         <div className="div2013">
                             <div className="card">
-                                <img className="card-img-top" src={require("../../../img/XXL/sauteursXXL/bellepromesse/belle1.jpg")} alt="belle_promesse"/>
+                                <img className="card-img-top" src={require("../../../img/XXL/sauteursXXL/belle/belle1.jpg")} alt="belle_promesse"/>
                                 <div className="card-body">
                                     <Link to="/belle_promesse" className="btn btn-primary">Belle Promesse</Link>
                                 </div>

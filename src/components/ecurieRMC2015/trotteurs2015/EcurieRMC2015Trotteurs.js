@@ -24,7 +24,7 @@ class EcurieRMC2015Trotteurs extends Component {
                     <div className="liens">
                         <div className="div2013">
                             <div className="card">
-                                <img className="card-img-top" src={require("../../../img/RMC2015/trotteurs2015/cristal/cristal1.jpg")} alt="cristal_pierji"/>
+                                <img className="card-img-top" src={require("../../../img/RMC2015/trotteurs2015/cristal/cristal2.jpeg")} alt="cristal_pierji"/>
                                 <div className="card-body">
                                     <Link to="/cristal_pierji2015" className="btn btn-primary">Cristal Pierji</Link>
                                 </div>

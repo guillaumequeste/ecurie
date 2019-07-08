@@ -1,0 +1,32 @@
+.bodyContact {
+    height: 100vh;
+    background-color: #231F20;
+    display: flex;
+}
+
+.divContact {
+    margin: auto;
+    color: white;
+}
+
+.lienPortfolio {
+    color: white;
+    text-decoration: none;
+    font-size: 1.8em;
+}
+
+.maj {
+    padding-top: 50px;
+}
+
+@media screen and (max-width: 640px) {
+    .mail {
+        font-size: 0.8em;
+    }
+    .lienPortfolio {
+        font-size: 1em;
+    }
+    .maj {
+        font-size: 0.8em;
+    }
+}

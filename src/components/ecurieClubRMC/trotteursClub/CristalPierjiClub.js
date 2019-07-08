@@ -7,13 +7,18 @@ class CristalPierjiClub extends Component {
   
     render () {
         return (
-            <div className="bodyChevalCristalPierjiClub">
+            <div className="bodyCheval">
                 <Header />
                 <h1 className="nomCheval">Cristal Pierji (Club)</h1>
-                <img className="imgDetailCristalPierjiClub" src={require("../../../img/ClubRMC/trotteursClub/cristal/cristal1.jpg")} alt="cristal"/>
-                <p>44 courses</p>
+                <img className="imgDetailCristalPierjiClub" src={require("../../../img/ClubRMC/trotteursClub/cristal/cristal2.jpeg")} alt="cristal2"/>
+                <p>45 courses</p>
                 <p>1 victoire à Cagnes</p>
                 <p>29 places</p>
+                <div className="row">
+                    <div className="col-sm-3">
+                    <img className="imgDetail2" src={require("../../../img/RMC2015/trotteurs2015/cristal/cristal1.jpg")} alt="cristal_pierji1"/>
+                    </div>
+                </div>
             </div>
         )
     }

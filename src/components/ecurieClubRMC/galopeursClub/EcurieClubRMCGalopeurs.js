@@ -84,7 +84,7 @@ class EcurieClubRMCGalopeurs extends Component {
                     <div className="liens">
                         <div className="div2013">
                             <div className="card">
-                                <img className="card-img-top" src={require("../../../img/ClubRMC/galopeursClub/mysoul/mysoul1.jpg")} alt="my_soul"/>
+                                <img className="card-img-top" src={require("../../../img/ClubRMC/galopeursClub/mysoul/mysoul2.png")} alt="my_soul"/>
                                 <div className="card-body">
                                     <Link to="/my_soul" className="btn btn-primary">My Soul</Link>
                                 </div>
