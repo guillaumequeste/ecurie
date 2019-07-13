@@ -9,8 +9,8 @@ class DjangoGibus extends Component {
                 <Header />
                 <h1 className="nomCheval">Django Gibus</h1>
                 <img className="imgDetailJurisprudance" src={require("../../../img/ClubRMC/trotteursClub/django/django1.jpg")} alt="django"/>
-                <p>17 courses</p>
-                <p>11 places</p>
+                <p>18 courses</p>
+                <p>12 places</p>
                 <div className="row">
                     <div className="col-sm-3">
                         <img className="imgDetail2" src={require("../../../img/ClubRMC/trotteursClub/django/django2.jpg")} alt="django2"/>
@@ -23,6 +23,11 @@ class DjangoGibus extends Component {
                     </div>
                     <div className="col-sm-3">
                         <img className="imgDetail2" src={require("../../../img/ClubRMC/trotteursClub/django/django5.jpg")} alt="django5"/>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-sm-3">
+                        <img className="imgDetail2" src={require("../../../img/ClubRMC/trotteursClub/django/django6.jpg")} alt="django6"/>
                     </div>
                 </div>
             </div>
