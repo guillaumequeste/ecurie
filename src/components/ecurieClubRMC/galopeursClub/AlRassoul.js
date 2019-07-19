@@ -10,9 +10,9 @@ class AlRassoul extends Component {
                 <Header />
                 <h1 className="nomCheval">Al Rassoul</h1>
                 <img className="imgDetailAlRassoul" src={require("../../../img/ClubRMC/galopeursClub/al/al1.jpg")} alt="al_rassoul"/>
-                <p>16 courses</p>
+                <p>17 courses</p>
                 <p>2 victoires à Longchamp et Nort-sur-Erdre</p>
-                <p>6 places</p>
+                <p>7 places</p>
                 <div className="row">
                     <div className="col-sm-3">
                         <img className="imgDetail2" src={require("../../../img/ClubRMC/galopeursClub/al/al3.jpg")} alt="al_rassoul3"/>
