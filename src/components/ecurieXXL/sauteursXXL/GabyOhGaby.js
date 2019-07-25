@@ -2,17 +2,25 @@ import React, { Component } from 'react'
 import Header from '../../Header'
 import './GabyOhGaby.css'
 
-class GabyOhGaby extends Component {
+class Loquen extends Component {
   
     render () {
         return (
-            <div className="bodyChevalGabyOhGaby">
+            <div className="bodyCheval">
                 <Header />
-                <h1 className="nomCheval">Gaby Oh Gaby</h1>
-                <img className="imgDetail" src={require("../../../img/XXL/sauteursXXL/gaby/gaby1.jpg")} alt="gaby_oh_gaby"/>
+                <h1 className="nomCheval">Loquen</h1>
+                <img className="imgDetailGabyOhGaby" src={require("../../../img/XXL/sauteursXXL/gaby/gaby1.jpg")} alt="gaby1"/>
+                <div className="row">
+                    <div className="col-sm-3">
+                        <img className="imgDetail2" src={require("../../../img/XXL/sauteursXXL/gaby/gaby2.jpg")} alt="gaby2"/>
+                    </div>
+                    <div className="col-sm-3">
+                        <img className="imgDetail2" src={require("../../../img/XXL/sauteursXXL/gaby/gaby3.jpg")} alt="gaby3"/>
+                    </div>
+                </div>
             </div>
         )
     }
 }
 
-export default GabyOhGaby
+export default Loquen
