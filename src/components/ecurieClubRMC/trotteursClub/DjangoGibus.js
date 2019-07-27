@@ -29,6 +29,9 @@ class DjangoGibus extends Component {
                     <div className="col-sm-3">
                         <img className="imgDetail2" src={require("../../../img/ClubRMC/trotteursClub/django/django6.jpg")} alt="django6"/>
                     </div>
+                    <div className="col-sm-3">
+                        <img className="imgDetail2" src={require("../../../img/ClubRMC/trotteursClub/django/django7.png")} alt="django7"/>
+                    </div>
                 </div>
             </div>
         )
