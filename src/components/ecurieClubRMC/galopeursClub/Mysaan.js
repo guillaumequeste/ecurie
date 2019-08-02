@@ -6,7 +6,7 @@ class Mysaan extends Component {
   
     render () {
         return (
-            <div className="bodyChevalLoquen">
+            <div className="bodyChevalMysaan">
                 <Header />
                 <h1 className="nomCheval">Mysaan</h1>
                 <img className="imgDetail" src={require("../../../img/ClubRMC/galopeursClub/mysaan/mysaan1.jpg")} alt="mysaan"/>

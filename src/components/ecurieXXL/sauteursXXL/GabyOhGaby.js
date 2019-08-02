@@ -10,6 +10,7 @@ class Loquen extends Component {
                 <Header />
                 <h1 className="nomCheval">Loquen</h1>
                 <img className="imgDetailGabyOhGaby" src={require("../../../img/XXL/sauteursXXL/gaby/gaby1.jpg")} alt="gaby1"/>
+                <p>1 course</p>
                 <div className="row">
                     <div className="col-sm-3">
                         <img className="imgDetail2" src={require("../../../img/XXL/sauteursXXL/gaby/gaby2.jpg")} alt="gaby2"/>

@@ -1,0 +1,16 @@
+.bodyBilan {
+    height: 100vh;
+    background-color: #231F20;
+    display: flex;
+}
+
+.divBilan {
+    margin: auto;
+    color: white;
+}
+
+@media screen and (max-width: 640px) {
+    .divBilan {
+        font-size: 0.8em;
+    }
+}

@@ -9,8 +9,8 @@ class EclipseSomolli extends Component {
                 <Header />
                 <h1 className="nomCheval">Eclipse Somolli</h1>
                 <img className="imgDetailJurisprudance" src={require("../../../img/ClubRMC/trotteursClub/eclipse/eclipse1.jpg")} alt="eclipse_somolli"/>
-                <p>13 courses</p>
-                <p>2 victoires à Mauquenchy et Cabourg</p>
+                <p>14 courses</p>
+                <p>3 victoires à Mauquenchy, Cabourg et aux Sables d'Olonne</p>
                 <p>2 places</p>
                 <div className="row">
                     <div className="col-sm-3">

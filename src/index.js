@@ -78,6 +78,7 @@ import JolyAndBach from './components/ecurieXXL/sauteursXXL/JolyAndBach'
 import Korum from './components/ecurieXXL/sauteursXXL/Korum'
 import MasterGold from './components/ecurieXXL/sauteursXXL/MasterGold'
 import Contact from './components/Contact'
+import Bilan from './components/Bilan'
 import Liste from './components/Liste'
 import Auteur from './components/Auteur'
 import CristalPierji from './components/CristalPierji'
@@ -97,6 +98,7 @@ const Root = () => (
             <Route path='/ecurieClubRMC' component={EcurieClubRMC}/>
             <Route path='/ecurieXXL' component={EcurieXXL}/>
             <Route path='/liste' component={Liste}/>
+            <Route path='/bilan' component={Bilan}/>
             <Route path='/contact' component={Contact}/>
 
             <Route path='/galopeurs2013' component={EcurieRMC2013Galopeurs}/>
