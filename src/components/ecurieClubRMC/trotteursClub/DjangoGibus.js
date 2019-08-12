@@ -9,8 +9,8 @@ class DjangoGibus extends Component {
                 <Header />
                 <h1 className="nomCheval">Django Gibus</h1>
                 <img className="imgDetailJurisprudance" src={require("../../../img/ClubRMC/trotteursClub/django/django1.jpg")} alt="django"/>
-                <p>20 courses</p>
-                <p>13 places</p>
+                <p>21 courses</p>
+                <p>14 places</p>
                 <div className="row">
                     <div className="col-sm-3">
                         <img className="imgDetail2" src={require("../../../img/ClubRMC/trotteursClub/django/django2.jpg")} alt="django2"/>
