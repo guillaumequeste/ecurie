@@ -10,8 +10,8 @@ class DivaDuDancing extends Component {
                 <Header />
                 <h1 className="nomCheval">Diva du Dancing</h1>
                 <img className="imgDetail" src={require("../../../img/ClubRMC/galopeursClub/diva/diva1.jpg")} alt="diva_du_dancing"/>
-                <p>1 course</p>
-                <p>1 place</p>
+                <p>2 courses</p>
+                <p>2 places</p>
             </div>
         )
     }
