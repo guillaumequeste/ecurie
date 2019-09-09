@@ -10,8 +10,8 @@ class Korum extends Component {
                 <Header />
                 <h1 className="nomCheval">Korum</h1>
                 <img className="imgDetail" src={require("../../../img/XXL/sauteursXXL/korum/korum1.jpg")} alt="korum"/>
-                <p>2 courses</p>
-                <p>1 place</p>
+                <p>3 courses</p>
+                <p>2 places</p>
             </div>
         )
     }

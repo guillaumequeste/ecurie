@@ -10,8 +10,8 @@ class ElcondorForlonge extends Component {
                 <Header />
                 <h1 className="nomCheval">Elcond'Or Forlonge</h1>
                 <img className="imgDetail" src={require("../../../img/XXL/sauteursXXL/elcondor/elcondor1.jpg")} alt="elcondor_forlonge"/>
-                <p>4 courses</p>
-                <p>2 places</p>
+                <p>5 courses</p>
+                <p>3 places</p>
             </div>
         )
     }
