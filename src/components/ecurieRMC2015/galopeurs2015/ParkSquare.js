@@ -11,7 +11,7 @@ class ParkSquare extends Component {
                 <h1 className="nomCheval">Park quare</h1>
                 <img className="imgDetailParkSquare" src={require("../../../img/RMC2015/galopeurs2015/park/park1.jpg")} alt="park_square"/>
                 <p>9 courses</p>
-                <p>2 places</p>
+                <p>1 place</p>
             </div>
         )
     }

@@ -8,7 +8,7 @@ class Loquen extends Component {
         return (
             <div className="bodyCheval">
                 <Header />
-                <h1 className="nomCheval">Loquen</h1>
+                <h1 className="nomCheval">Gaby Oh Gaby</h1>
                 <img className="imgDetailGabyOhGaby" src={require("../../../img/XXL/sauteursXXL/gaby/gaby1.jpg")} alt="gaby1"/>
                 <p>1 course</p>
                 <div className="row">

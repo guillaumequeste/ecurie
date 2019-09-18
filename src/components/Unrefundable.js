@@ -11,7 +11,7 @@ class Unrefundable extends Component {
                 <img className="imgDetail" src={require("../img/RMC2014/trotteurs2014/unrefundable/unrefundable6.jpg")} alt="unrefundable6"/>
                 <p>43 courses</p>
                 <p>6 victoires à Gournay-en-Bray, Cabourg, Amiens, Vincennes et Cavaillon</p>
-                <p>25 places</p>
+                <p>26 places</p>
                 <div className="row">
                     <div className="col-sm-3">
                         <img className="imgDetail2" src={require("../img/RMC2014/trotteurs2014/unrefundable/unrefundable1.jpg")} alt="unrefundable1"/>

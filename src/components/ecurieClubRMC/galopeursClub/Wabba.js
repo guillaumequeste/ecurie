@@ -11,7 +11,7 @@ class Wabba extends Component {
                 <h1 className="nomCheval">Wabba</h1>
                 <img className="imgDetail" src={require("../../../img/ClubRMC/galopeursClub/wabba/wabba1.jpg")} alt="wabba"/>
                 <p>3 courses</p>
-                <p>1 place</p>
+                <p>2 places</p>
             </div>
         )
     }

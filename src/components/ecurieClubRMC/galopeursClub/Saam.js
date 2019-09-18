@@ -11,7 +11,7 @@ class Saam extends Component {
                 <h1 className="nomCheval">Saam</h1>
                 <img className="imgDetail" src={require("../../../img/ClubRMC/galopeursClub/saam/saam1.jpg")} alt="saam"/>
                 <p>6 courses</p>
-                <p>2 places</p>
+                <p>4 places</p>
             </div>
         )
     }
