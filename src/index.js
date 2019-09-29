@@ -57,6 +57,7 @@ import Loquen from './components/ecurieClubRMC/galopeursClub/Loquen'
 import MySoul from './components/ecurieClubRMC/galopeursClub/MySoul'
 import Mysaan from './components/ecurieClubRMC/galopeursClub/Mysaan'
 import Saam from './components/ecurieClubRMC/galopeursClub/Saam'
+import StormKaty from './components/ecurieClubRMC/galopeursClub/StormKaty'
 import Wabba from './components/ecurieClubRMC/galopeursClub/Wabba'
 import CristalPierjiClub from './components/ecurieClubRMC/trotteursClub/CristalPierjiClub'
 import DjangoGibus from './components/ecurieClubRMC/trotteursClub/DjangoGibus'
@@ -154,6 +155,7 @@ const Root = () => (
             <Route path='/my_soul' component={MySoul}/>
             <Route path='/mysaan' component={Mysaan}/>
             <Route path='/saam' component={Saam}/>
+            <Route path='/storm_katy' component={StormKaty}/>
             <Route path='/wabba' component={Wabba}/>
 
             <Route path='/cristal_pierjiClub' component={CristalPierjiClub}/>

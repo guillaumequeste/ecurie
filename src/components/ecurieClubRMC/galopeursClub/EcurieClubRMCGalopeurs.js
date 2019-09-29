@@ -114,6 +114,16 @@ class EcurieClubRMCGalopeurs extends Component {
                     <div className="liens">
                         <div className="div2013">
                             <div className="card">
+                                <img className="card-img-top" src={require("../../../img/ClubRMC/galopeursClub/storm_katy/storm_katy1.jpg")} alt="storm_katy"/>
+                                <div className="card-body">
+                                    <Link to="/storm_katy" className="btn btn-primary">Storm Katy</Link>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="liens">
+                        <div className="div2013">
+                            <div className="card">
                                 <img className="card-img-top" src={require("../../../img/ClubRMC/galopeursClub/wabba/wabba1.jpg")} alt="wabba"/>
                                 <div className="card-body">
                                     <Link to="/wabba" className="btn btn-primary">Wabba</Link>
