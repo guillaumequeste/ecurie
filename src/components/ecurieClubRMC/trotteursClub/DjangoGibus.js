@@ -9,7 +9,7 @@ class DjangoGibus extends Component {
                 <Header />
                 <h1 className="nomCheval">Django Gibus</h1>
                 <img className="imgDetailJurisprudance" src={require("../../../img/ClubRMC/trotteursClub/django/django1.jpg")} alt="django"/>
-                <p>25 courses</p>
+                <p>26 courses</p>
                 <p>1 victoire à Montignac</p>
                 <p>15 places</p>
                 <div className="row">
