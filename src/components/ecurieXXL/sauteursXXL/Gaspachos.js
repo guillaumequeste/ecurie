@@ -10,7 +10,8 @@ class Gaspachos extends Component {
                 <Header />
                 <h1 className="nomCheval">Gaspacho's</h1>
                 <img className="imgDetail" src={require("../../../img/XXL/sauteursXXL/gaspachos/gaspachos1.jpg")} alt="gaspachos"/>
-                <p>1 course</p>
+                <p>2 courses</p>
+                <p>1 place</p>
             </div>
         )
     }

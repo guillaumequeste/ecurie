@@ -28,6 +28,9 @@ class DominodeLarre extends Component {
                     <div className="col-sm-3">
                         <img className="imgDetail2" src={require("../../../img/ClubRMC/trotteursClub/domino/domino6.jpg")} alt="domino_de_larre6"/>
                     </div>
+                    <div className="col-sm-3">
+                        <img className="imgDetail2" src={require("../../../img/ClubRMC/trotteursClub/domino/domino7.jpg")} alt="domino_de_larre7"/>
+                    </div>
                 </div>
             </div>
         )

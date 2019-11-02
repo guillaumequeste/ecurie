@@ -10,6 +10,11 @@ class Everybodywantsme extends Component {
                 <Header />
                 <h1 className="nomCheval">Everybodywantsme</h1>
                 <img className="imgDetail" src={require("../../../img/XXL/sauteursXXL/everybody/everybody1.jpg")} alt="everybodywantsme"/>
+                <div className="row">
+                    <div className="col-sm-3">
+                        <img className="imgDetail2" src={require("../../../img/XXL/sauteursXXL/everybody/everybody2.jpg")} alt="al_rassoul3"/>
+                    </div>
+                </div>
             </div>
         )
     }
