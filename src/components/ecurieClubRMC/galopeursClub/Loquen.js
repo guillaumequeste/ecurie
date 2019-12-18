@@ -12,6 +12,11 @@ class Loquen extends Component {
                 <img className="imgDetailLoquen" src={require("../../../img/ClubRMC/galopeursClub/loquen/loquen1.jpg")} alt="loquen"/>
                 <p>1 course</p>
                 <p>1 place</p>
+                <div className="row">
+                    <div className="col-sm-3">
+                        <img className="imgDetail2" src={require("../../../img/ClubRMC/galopeursClub/loquen/loquen2.jpg")} alt="loquen2"/>
+                    </div>
+                </div>
             </div>
         )
     }
