@@ -10,7 +10,7 @@ class Contact extends Component {
                 <Header />
                 <div className="divContact">
                     <h3 className="mail">guillaume.queste@laposte.net</h3>
-                    <a href="http://www.guillaumequeste.fr" target="_blank" className="lienPortfolio">http://www.guillaumequeste.fr</a>
+                    <a href="http://www.guillaumequeste.fr" target="_blank" rel="noopener noreferrer" className="lienPortfolio">http://www.guillaumequeste.fr</a>
                     <h6 className="maj">date de mise à jour : 23 décembre 2019</h6>
                 </div>
             </div>
