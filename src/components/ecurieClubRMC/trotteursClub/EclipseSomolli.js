@@ -22,6 +22,9 @@ class EclipseSomolli extends Component {
                     <div className="col-sm-3">
                         <img className="imgDetail2" src={require("../../../img/ClubRMC/trotteursClub/eclipse/eclipse4.jpg")} alt="eclipse_somolli4"/>
                     </div>
+                    <div className="col-sm-3">
+                        <img className="imgDetail2" src={require("../../../img/ClubRMC/trotteursClub/eclipse/eclipse5.jpg")} alt="eclipse_somolli5"/>
+                    </div>
                 </div>
             </div>
         )
