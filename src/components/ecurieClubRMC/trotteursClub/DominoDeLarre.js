@@ -9,9 +9,9 @@ class DominodeLarre extends Component {
                 <Header />
                 <h1 className="nomCheval">Domino de Larré</h1>
                 <img className="imgDetailJurisprudance" src={require("../../../img/ClubRMC/trotteursClub/domino/domino1.jpg")} alt="domino_de_larre"/>
-                <p>41 courses</p>
+                <p>42 courses</p>
                 <p>2 victoires à Agen</p>
-                <p>23 places</p>
+                <p>24 places</p>
                 <div className="row">
                     <div className="col-sm-3">
                         <img className="imgDetail2" src={require("../../../img/ClubRMC/trotteursClub/domino/domino2.jpg")} alt="domino_de_larre2"/>
@@ -30,6 +30,9 @@ class DominodeLarre extends Component {
                     </div>
                     <div className="col-sm-3">
                         <img className="imgDetail2" src={require("../../../img/ClubRMC/trotteursClub/domino/domino7.jpg")} alt="domino_de_larre7"/>
+                    </div>
+                    <div className="col-sm-3">
+                        <img className="imgDetail2" src={require("../../../img/ClubRMC/trotteursClub/domino/domino8.jpg")} alt="domino_de_larre8"/>
                     </div>
                 </div>
             </div>
