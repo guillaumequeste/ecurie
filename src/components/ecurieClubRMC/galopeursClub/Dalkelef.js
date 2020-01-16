@@ -10,7 +10,7 @@ class Dalkelef extends Component {
                 <Header />
                 <h1 className="nomCheval">Dalkelef</h1>
                 <img className="imgDetail" src={require("../../../img/ClubRMC/galopeursClub/dalkelef/dalkelef1.jpg")} alt="dalkelef"/>
-                <p>10 courses</p>
+                <p>11 courses</p>
                 <p>5 places</p>
             </div>
         )
