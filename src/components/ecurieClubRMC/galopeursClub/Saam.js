@@ -10,7 +10,8 @@ class Saam extends Component {
                 <Header />
                 <h1 className="nomCheval">Saam</h1>
                 <img className="imgDetail" src={require("../../../img/ClubRMC/galopeursClub/saam/saam1.jpg")} alt="saam"/>
-                <p>8 courses</p>
+                <p>9 courses</p>
+                <p>1 victoire à Pornichet</p>
                 <p>5 places</p>
             </div>
         )
