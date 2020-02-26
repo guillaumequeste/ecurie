@@ -10,8 +10,8 @@ class Borenis extends Component {
                 <Header />
                 <h1 className="nomCheval">Borenis</h1>
                 <img className="imgDetail" src={require("../../../img/XXL/sauteursXXL/borenis/borenis1.jpg")} alt="borenis"/>
-                <p>4 courses</p>
-                <p>3 places</p>
+                <p>5 courses</p>
+                <p>4 places</p>
             </div>
         )
     }
