@@ -10,7 +10,7 @@ class EclairEtincelle extends Component {
                 <Header />
                 <h1 className="nomCheval">Eclair Etincelle</h1>
                 <img className="imgDetail" src={require("../../../img/XXL/sauteursXXL/eclair/eclair1.jpg")} alt="eclair_etincelle"/>
-                <p>1 course</p>
+                <p>2 courses</p>
                 <p>1 victoire à Sablé-sur-Sarthe</p>
             </div>
         )

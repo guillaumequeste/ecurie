@@ -10,6 +10,7 @@ class GlasgowAllen extends Component {
                 <Header />
                 <h1 className="nomCheval">GlasgowAllen</h1>
                 <img className="imgDetail" src={require("../../../img/XXL/sauteursXXL/glasgow/glasgow1.jpg")} alt="glasgow_allen"/>
+                <p>1 course</p>
             </div>
         )
     }
