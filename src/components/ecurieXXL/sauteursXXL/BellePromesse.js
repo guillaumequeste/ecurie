@@ -10,7 +10,8 @@ class BellePromesse extends Component {
                 <Header />
                 <h1 className="nomCheval">Belle Promesse</h1>
                 <img className="imgDetail" src={require("../../../img/XXL/sauteursXXL/belle/belle1.jpg")} alt="belle_promesse"/>
-                <p>4 courses</p>
+                <p>5 courses</p>
+                <p>1 victoire à Bordeaux</p>
                 <p>2 places</p>
                 <div className="row">
                     <div className="col-sm-3">
