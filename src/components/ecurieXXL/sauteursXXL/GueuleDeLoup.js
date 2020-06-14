@@ -10,6 +10,7 @@ class GueuleDeLoup extends Component {
                 <Header />
                 <h1 className="nomCheval">Gueule de Loup</h1>
                 <img className="imgDetailGueuleDeLoup" src={require("../../../img/XXL/sauteursXXL/gueule/gueule1.jpg")} alt="gueule_de_loup"/>
+                <p>1 course</p>
             </div>
         )
     }
