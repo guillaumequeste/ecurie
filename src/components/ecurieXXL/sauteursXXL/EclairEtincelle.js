@@ -6,12 +6,26 @@ class EclairEtincelle extends Component {
   
     render () {
         return (
-            <div className="bodyChevalEclairEtincelle">
+            <div className="bodyCheval">
                 <Header />
                 <h1 className="nomCheval">Eclair Etincelle</h1>
                 <img className="imgDetail" src={require("../../../img/XXL/sauteursXXL/eclair/eclair1.jpg")} alt="eclair_etincelle"/>
-                <p>3 courses</p>
+                <p>4 courses</p>
                 <p>1 victoire à Sablé-sur-Sarthe</p>
+                <div className="row">
+                    <div className="col-sm-3">
+                        <img className="imgDetail2" src={require("../../../img/XXL/sauteursXXL/eclair/eclair2.jpg")} alt="eclair2"/>
+                    </div>
+                    <div className="col-sm-3">
+                        <img className="imgDetail2" src={require("../../../img/XXL/sauteursXXL/eclair/eclair3.jpg")} alt="eclair3"/>
+                    </div>
+                    <div className="col-sm-3">
+                        <img className="imgDetail2" src={require("../../../img/XXL/sauteursXXL/eclair/eclair4.jpg")} alt="eclair4"/>
+                    </div>
+                    <div className="col-sm-3">
+                        <img className="imgDetail2" src={require("../../../img/XXL/sauteursXXL/eclair/eclair5.jpg")} alt="eclair5"/>
+                    </div>
+                </div>
             </div>
         )
     }
