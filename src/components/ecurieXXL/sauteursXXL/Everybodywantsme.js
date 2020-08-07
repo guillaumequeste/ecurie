@@ -12,7 +12,10 @@ class Everybodywantsme extends Component {
                 <img className="imgDetail" src={require("../../../img/XXL/sauteursXXL/everybody/everybody1.jpg")} alt="everybodywantsme"/>
                 <div className="row">
                     <div className="col-sm-3">
-                        <img className="imgDetail2" src={require("../../../img/XXL/sauteursXXL/everybody/everybody2.jpg")} alt="al_rassoul3"/>
+                        <img className="imgDetail2" src={require("../../../img/XXL/sauteursXXL/everybody/everybody2.jpg")} alt="everybodywantsme2"/>
+                    </div>
+                    <div className="col-sm-3">
+                        <img className="imgDetail2" src={require("../../../img/XXL/sauteursXXL/everybody/everybody3.jpg")} alt="everybodywantsme3"/>
                     </div>
                 </div>
             </div>
