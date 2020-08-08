@@ -13,7 +13,7 @@ class Bilan extends Component {
                     <p><strong>RMC 2014</strong> : 191 courses, 20 victoires, 84 places</p>
                     <p><strong>RMC 2015</strong> : 78 courses, 9 victoires, 36 places</p>
                     <p><strong>Club RMC</strong> : 290 courses, 20 victoires, 142 places</p>
-                    <p><strong>XXL</strong> : 49 courses, 4 victoires, 26 places</p>
+                    <p><strong>XXL</strong> : 51 courses, 4 victoires, 26 places</p>
                 </div>
             </div>
         )
