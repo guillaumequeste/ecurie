@@ -25,6 +25,9 @@ class App extends Component {
                     <div className="divAccueil">
                         <Link to="/ecurieXXL" className="lienAccueil"><img src={require("./img/XXL/casaqueXXL.png")} alt="casaqueXXL"/><span className="accueil">XXL</span></Link>
                     </div>
+                    <div className="divAccueil">
+                        <Link to="/ecurieTop" className="lienAccueil"><img src={require("./img/Top/casaqueTop.jpg")} alt="casaqueTop" className="casaqueTop"/><span className="accueil">Ecurie Top</span></Link>
+                    </div>
                 </div>
             </div>
         )

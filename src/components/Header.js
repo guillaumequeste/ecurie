@@ -44,6 +44,9 @@ class Header extends Component {
                                 <Link to="/ecurieXXL" className="nav-link">XXL</Link>
                             </li>
                             <li className="nav-item">
+                                <Link to="/ecurieTop" className="nav-link">Top</Link>
+                            </li>
+                            <li className="nav-item">
                                 <Link to="/liste" className="nav-link">Liste des chevaux</Link>
                             </li>
                             <li className="nav-item">

@@ -1,0 +1,62 @@
+.bodyTop {
+    height: 100vh;
+    background-color: #231F20;
+    display: flex;
+}
+
+.liens {
+    margin: auto;
+}
+
+.titreTop {
+    color: white;
+    text-align: center;
+    padding-bottom: 20%;
+}
+
+@media screen and (max-width: 1000px) {
+    .titreTop {
+        display: none;
+    }
+}
+
+.casaqueTop {
+    width: 60px;
+    padding: 0 0 3% 3%;
+}
+
+@media screen and (max-width: 1000px) {
+    .casaqueTop {
+        width: 30px;
+    }
+}
+
+.divTop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 50vw;
+}
+
+@media screen and (max-width: 1000px) {
+    .divTop {
+        padding-top: 25%;
+    }
+}
+
+.card {
+    margin: auto;
+    width: 150px;
+    height: 200px;
+}
+
+.card-img-top {
+    width: 150px;
+    height: 100px;
+}
+
+.card-body {
+    background-color: grey;
+    text-align: center;
+}

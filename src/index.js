@@ -10,6 +10,11 @@ import EcurieRMC2014 from './components/ecurieRMC2014/EcurieRMC2014'
 import EcurieRMC2015 from './components/ecurieRMC2015/EcurieRMC2015'
 import EcurieClubRMC from './components/ecurieClubRMC/EcurieClubRMC'
 import EcurieXXL from './components/ecurieXXL/EcurieXXL'
+import EcurieXXLSauteurs from './components/ecurieXXL/sauteursXXL/EcurieXXLSauteurs'
+import EcurieTop from './components/ecurieTop/EcurieTop'
+import EcurieTopGalop from './components/ecurieTop/galopTop/EcurieTopGalop'
+import EcurieTopTrot from './components/ecurieTop/trotTop/EcurieTopTrot'
+import EcurieTopObstacle from './components/ecurieTop/obstacleTop/EcurieTopObstacle'
 import EcurieRMC2013Galopeurs from './components/ecurieRMC2013/galopeurs2013/EcurieRMC2013Galopeurs'
 import EcurieRMC2014Galopeurs from './components/ecurieRMC2014/galopeurs2014/EcurieRMC2014Galopeurs'
 import EcurieRMC2014Trotteurs from './components/ecurieRMC2014/trotteurs2014/EcurieRMC2014Trotteurs'
@@ -17,7 +22,6 @@ import EcurieRMC2015Galopeurs from './components/ecurieRMC2015/galopeurs2015/Ecu
 import EcurieRMC2015Trotteurs from './components/ecurieRMC2015/trotteurs2015/EcurieRMC2015Trotteurs'
 import EcurieClubRMCGalopeurs from './components/ecurieClubRMC/galopeursClub/EcurieClubRMCGalopeurs'
 import EcurieClubRMCTrotteurs from './components/ecurieClubRMC/trotteursClub/EcurieClubRMCTrotteurs'
-import EcurieXXLSauteurs from './components/ecurieXXL/sauteursXXL/EcurieXXLSauteurs'
 import Benodet from './components/ecurieRMC2013/galopeurs2013/Benodet'
 import Falcolina from './components/ecurieRMC2013/galopeurs2013/Falcolina'
 import PanDiStelle from './components/ecurieRMC2013/galopeurs2013/PanDiStelle'
@@ -78,6 +82,7 @@ import GueuleDeLoup from './components/ecurieXXL/sauteursXXL/GueuleDeLoup'
 import JolyAndBach from './components/ecurieXXL/sauteursXXL/JolyAndBach'
 import Korum from './components/ecurieXXL/sauteursXXL/Korum'
 import MasterGold from './components/ecurieXXL/sauteursXXL/MasterGold'
+import Highlands from './components/ecurieTop/obstacleTop/Highlands'
 import Contact from './components/Contact'
 import Bilan from './components/Bilan'
 import Liste from './components/Liste'
@@ -98,6 +103,7 @@ const Root = () => (
             <Route path='/ecurieRMC2015' component={EcurieRMC2015}/>
             <Route path='/ecurieClubRMC' component={EcurieClubRMC}/>
             <Route path='/ecurieXXL' component={EcurieXXL}/>
+            <Route path='/ecurieTop' component={EcurieTop}/>
             <Route path='/liste' component={Liste}/>
             <Route path='/bilan' component={Bilan}/>
             <Route path='/contact' component={Contact}/>
@@ -110,6 +116,9 @@ const Root = () => (
             <Route path='/galopeursClub' component={EcurieClubRMCGalopeurs}/>
             <Route path='/trotteursClub' component={EcurieClubRMCTrotteurs}/>
             <Route path='/sauteursXXL' component={EcurieXXLSauteurs}/>
+            <Route path='/galopTop' component={EcurieTopGalop}/>
+            <Route path='/trotTop' component={EcurieTopTrot}/>
+            <Route path='/obstacleTop' component={EcurieTopObstacle}/>
 
             <Route path='/benodet' component={Benodet}/>
             <Route path='/falcolina' component={Falcolina}/>
@@ -178,6 +187,8 @@ const Root = () => (
             <Route path='/joly_and_bach' component={JolyAndBach}/>
             <Route path='/korum' component={Korum}/>
             <Route path='/master_gold' component={MasterGold}/>
+
+            <Route path='/highlands' component={Highlands}/>
             
             <Route path='/trotteurs/auteur' component={Auteur}/>
             <Route path='/trotteurs/cristal_pierji' component={CristalPierji}/>
