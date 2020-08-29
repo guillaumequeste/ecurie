@@ -14,7 +14,7 @@ class EcurieTopObstacle extends Component {
                     <div className="liens">
                         <div className="div2013">
                             <div className="card">
-                                <img className="card-img-top" src={require("../../../img/Top/obstacleTop/highlands/highlands1.jpg")} alt="beynostorm"/>
+                                <img className="card-img-top" src={require("../../../img/Top/obstacleTop/highlands/highlands01.jpg")} alt="highlands01"/>
                                 <div className="card-body">
                                     <Link to="/highlands" className="btn btn-primary">Highlands d'Allier</Link>
                                 </div>
