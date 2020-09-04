@@ -1,11 +1,12 @@
 .bodyBilan {
-    height: 100vh;
+    min-height: 100vh;
     background-color: #231F20;
     display: flex;
 }
 
 .divBilan {
     margin: auto;
+    padding-top: 5%;
     color: white;
 }
 
@@ -13,4 +14,9 @@
     .divBilan {
         font-size: 0.8em;
     }
+}
+
+.reussite {
+    padding-left: 25%;
+    font-style: italic;
 }

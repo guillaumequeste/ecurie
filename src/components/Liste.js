@@ -47,6 +47,7 @@ class Liste extends Component {
                     </div>
                     <div className="col-sm-3">
                         <p><Link to="/gueule_de_loup" className="lienCheval">Gueule de Loup</Link></p>
+                        <p><Link to="/highlands" className="lienCheval">Highlands d'Allier</Link></p>
                         <p><Link to="/joly_and_bach" className="lienCheval">Joly and Bach</Link></p>
                         <p><Link to="/jurisprudance" className="lienCheval">Jurisprudance</Link></p>
                         <p><Link to="/kilava" className="lienCheval">Kilava</Link></p>
@@ -60,9 +61,9 @@ class Liste extends Component {
                         <p><Link to="/park_square" className="lienCheval">Park Square</Link></p>
                         <p><Link to="/pedregalejo" className="lienCheval">Pedregalejo</Link></p>
                         <p><Link to="/place_des_ternes" className="lienCheval">Place des Ternes</Link></p>
-                        <p><Link to="/pont_marie" className="lienCheval">Pont Marie</Link></p>
                     </div>
                     <div className="col-sm-3">
+                        <p><Link to="/pont_marie" className="lienCheval">Pont Marie</Link></p>
                         <p><Link to="/race_for_fame" className="lienCheval">Race For Fame</Link></p>
                         <p><Link to="/saam" className="lienCheval">Saam</Link></p>
                         <p><Link to="/shingueti" className="lienCheval">Shingueti</Link></p>
