@@ -1,22 +1,37 @@
 .bodyBilan {
     min-height: 100vh;
     background-color: #231F20;
-    display: flex;
 }
 
 .divBilan {
-    margin: auto;
-    padding-top: 5%;
-    color: white;
+    padding-top: 15vh;
+    width: 100%;
 }
 
-@media screen and (max-width: 640px) {
-    .divBilan {
-        font-size: 0.8em;
-    }
+.result {
+    border-radius: 5px;
+    padding-left: 2%;
+    width: 90vw;
+    margin: auto;
+}
+
+.result2 {
+    margin-top: 2%;
+}
+
+.pReussite {
+    margin: 0;
+    text-align: center;
 }
 
 .reussite {
-    padding-left: 25%;
+    text-align: center;
     font-style: italic;
+    border-radius: 5px;
+    margin: 0;
+}
+
+hr {
+    background-color: white;
+    width: 50%;
 }
