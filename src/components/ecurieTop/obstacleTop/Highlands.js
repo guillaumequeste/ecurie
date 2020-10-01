@@ -16,6 +16,9 @@ class Highlands extends Component {
                     <div className="col-sm-3">
                         <img className="imgDetail2" src={require("../../../img/Top/obstacleTop/highlands/highlands02.jpg")} alt="highlands02"/>
                     </div>
+                    <div className="col-sm-3">
+                        <img className="imgDetail2" src={require("../../../img/Top/obstacleTop/highlands/highlands03.jpg")} alt="highlands03"/>
+                    </div>
                 </div>
             </div>
         )

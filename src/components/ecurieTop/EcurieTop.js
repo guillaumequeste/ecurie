@@ -10,7 +10,7 @@ class EcurieTop extends Component {
             <div className="bodyTop">
                 <Header />
                 <div className="liens">
-                <h1 className="titreTop">Ecurie Top<img className="casaqueTop" src={require("../../img/Top/casaqueTop.jpg")} alt="casaqueTop"/></h1>
+                <h1 className="titreTop">Ecurie Top<img className="" src={require("../../img/Top/casaqueTop.png")} alt=""/></h1>
                 <div className="divTop">
                     <div className="card">
                         <img className="card-img-top" src={require("../../img/plat.png")} alt="plat"/>
