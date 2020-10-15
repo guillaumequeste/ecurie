@@ -10,8 +10,8 @@ class GalanteDArthel extends Component {
                 <Header />
                 <h1 className="nomCheval">Galante d'Arthel</h1>
                 <img className="imgDetail" src={require("../../../img/XXL/sauteursXXL/galante/galante1.jpg")} alt="galante_d_arthel"/>
-                <p>8 courses</p>
-                <p>1 victoire à Cluny</p>
+                <p>9 courses</p>
+                <p>2 victoires à Cluny et Paray-le-Monial</p>
                 <p>6 places</p>
                 <div className="row">
                     <div className="col-sm-3">
