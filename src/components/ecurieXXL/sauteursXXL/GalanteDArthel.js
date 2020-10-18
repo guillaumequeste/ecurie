@@ -17,6 +17,9 @@ class GalanteDArthel extends Component {
                     <div className="col-sm-3">
                         <img className="imgDetail2" src={require("../../../img/XXL/sauteursXXL/galante/galante2.jpg")} alt="galante2"/>
                     </div>
+                    <div className="col-sm-3">
+                        <img className="imgDetail2" src={require("../../../img/XXL/sauteursXXL/galante/galante3.jpg")} alt="galante3"/>
+                    </div>
                 </div>
             </div>
         )

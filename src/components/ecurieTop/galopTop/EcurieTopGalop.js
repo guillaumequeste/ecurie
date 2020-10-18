@@ -14,7 +14,7 @@ class EcurieTopGalop extends Component {
                     <div className="liens">
                         <div className="div2013">
                             <div className="card">
-                                <img className="card-img-top" src={require("../../../img/Top/galopTop/kingdor/kingdor01.jpg")} alt="kingdor01"/>
+                                <img className="card-img-top" src={require("../../../img/Top/galopTop/kingdor/kingdor03.jpg")} alt="kingdor03"/>
                                 <div className="card-body">
                                     <Link to="/kingdor" className="btn btn-primary">Kingdor</Link>
                                 </div>

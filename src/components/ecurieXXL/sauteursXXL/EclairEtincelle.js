@@ -27,6 +27,14 @@ class EclairEtincelle extends Component {
                         <img className="imgDetail2" src={require("../../../img/XXL/sauteursXXL/eclair/eclair5.jpg")} alt="eclair5"/>
                     </div>
                 </div>
+                <div className="row">
+                    <div className="col-sm-3">
+                        <img className="imgDetail2" src={require("../../../img/XXL/sauteursXXL/eclair/eclair6.jpg")} alt="eclair6"/>
+                    </div>
+                    <div className="col-sm-3">
+                        <img className="imgDetail2" src={require("../../../img/XXL/sauteursXXL/eclair/eclair7.jpg")} alt="eclair7"/>
+                    </div>
+                </div>
             </div>
         )
     }

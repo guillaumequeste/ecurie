@@ -30,13 +30,13 @@ class Bilan extends Component {
                     </div>
                     <hr />
                     <div className="result result2">
-                        <p className="pReussite"><strong>XXL</strong> : 64 courses, 7 victoires, 30 places</p>
-                        <p className="reussite">57,8% de réussite (10,9% à la gagne)</p>
+                        <p className="pReussite"><strong>XXL</strong> : 65 courses, 7 victoires, 30 places</p>
+                        <p className="reussite">56,9% de réussite (10,7% à la gagne)</p>
                     </div>
                     <hr />
                     <div className="result result2">
-                        <p className="pReussite"><strong>Ecurie Top</strong> : 1 course, 1 place</p>
-                        <p className="reussite">100% de réussite (0% à la gagne)</p>
+                        <p className="pReussite"><strong>Ecurie Top</strong> : 2 courses, 1 place</p>
+                        <p className="reussite">50% de réussite (0% à la gagne)</p>
                     </div>
                     <hr />
                     <div className="result result2">
