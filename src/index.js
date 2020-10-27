@@ -83,6 +83,7 @@ import JolyAndBach from './components/ecurieXXL/sauteursXXL/JolyAndBach'
 import Korum from './components/ecurieXXL/sauteursXXL/Korum'
 import MasterGold from './components/ecurieXXL/sauteursXXL/MasterGold'
 import Highlands from './components/ecurieTop/obstacleTop/Highlands'
+import HolaDeNappes from './components/ecurieTop/trotTop/HolaDeNappes'
 import Kingdor from './components/ecurieTop/galopTop/Kingdor'
 import Contact from './components/Contact'
 import Bilan from './components/Bilan'
@@ -190,6 +191,7 @@ const Root = () => (
             <Route path='/master_gold' component={MasterGold}/>
 
             <Route path='/highlands' component={Highlands}/>
+            <Route path='/hola_de_nappes' component={HolaDeNappes}/>
             <Route path='/kingdor' component={Kingdor}/>
             
             <Route path='/trotteurs/auteur' component={Auteur}/>
