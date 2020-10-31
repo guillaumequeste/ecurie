@@ -21,6 +21,9 @@ class Kingdor extends Component {
                     <div className="col-sm-3">
                         <img className="imgDetail2" src={require("../../../img/Top/galopTop/kingdor/kingdor04.jpg")} alt="kingdor04"/>
                     </div>
+                    <div className="col-sm-3">
+                        <img className="imgDetail2" src={require("../../../img/Top/galopTop/kingdor/kingdor05.jpg")} alt="kingdor05"/>
+                    </div>
                 </div>
             </div>
         )
