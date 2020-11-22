@@ -20,6 +20,17 @@ class GalanteDArthel extends Component {
                     <div className="col-sm-3">
                         <img className="imgDetail2" src={require("../../../img/XXL/sauteursXXL/galante/galante3.jpg")} alt="galante3"/>
                     </div>
+                    <div className="col-sm-3">
+                        <img className="imgDetail2" src={require("../../../img/XXL/sauteursXXL/galante/galante4.jpg")} alt="galante4"/>
+                    </div>
+                    <div className="col-sm-3">
+                        <img className="imgDetail2" src={require("../../../img/XXL/sauteursXXL/galante/galante5.jpg")} alt="galante5"/>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-sm-3">
+                        <img className="imgDetail2" src={require("../../../img/XXL/sauteursXXL/galante/galante6.jpg")} alt="galante6"/>
+                    </div>
                 </div>
             </div>
         )
