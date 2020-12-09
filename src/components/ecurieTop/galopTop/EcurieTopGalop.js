@@ -21,6 +21,16 @@ class EcurieTopGalop extends Component {
                             </div>
                         </div>
                     </div>
+                    <div className="liens">
+                        <div className="div2013">
+                            <div className="card">
+                                
+                                <div className="card-body">
+                                    <Link to="/apita" className="btn btn-primary">Apita</Link>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         )
