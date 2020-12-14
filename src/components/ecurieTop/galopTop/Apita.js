@@ -9,7 +9,7 @@ class Apita extends Component {
             <div className="bodyCheval">
                 <Header />
                 <h1 className="nomCheval">Apita</h1>
-              
+                <img className="imgDetail" src={require("../../../img/Top/galopTop/apita/apita01.jpg")} alt="apita01"/>
                 
                 <div className="row">
                     
