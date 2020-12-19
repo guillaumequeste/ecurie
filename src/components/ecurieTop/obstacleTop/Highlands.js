@@ -10,8 +10,8 @@ class Highlands extends Component {
                 <Header />
                 <h1 className="nomCheval">Highlands d'Allier</h1>
                 <img className="imgDetail" src={require("../../../img/Top/obstacleTop/highlands/highlands01.jpg")} alt="highlands01"/>
-                <p>2 courses</p>
-                <p>2 places</p>
+                <p>3 courses</p>
+                <p>3 places</p>
                 <div className="row">
                     <div className="col-sm-3">
                         <img className="imgDetail2" src={require("../../../img/Top/obstacleTop/highlands/highlands02.jpg")} alt="highlands02"/>
