@@ -10,8 +10,8 @@ class HolaDeNappes extends Component {
                 <Header />
                 <h1 className="nomCheval">Hola de Nappes</h1>
                 <img className="imgDetail" src={require("../../../img/Top/trotTop/hola/hola01.jpg")} alt="hola01"/>
-                <p>1 course</p>
-                <p>1 place</p>
+                <p>2 courses</p>
+                <p>2 places</p>
                 <div className="row">
                     
                 </div>
