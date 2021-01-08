@@ -13,7 +13,9 @@ class Honesta extends Component {
                 <p>1 course</p>
                 <p>1 place</p>
                 <div className="row">
-                    
+                <div className="col-sm-3">
+                        <img className="imgDetail2" src={require("../../../img/Top/obstacleTop/honesta/honesta02.jpg")} alt="honesta02"/>
+                    </div>
                 </div>
             </div>
         )
