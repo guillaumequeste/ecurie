@@ -10,7 +10,7 @@ class Honesta extends Component {
                 <Header />
                 <h1 className="nomCheval">Honesta</h1>
                 <img className="imgDetail" src={require("../../../img/Top/obstacleTop/honesta/honesta01.jpg")} alt="honesta01"/>
-                <p>1 course</p>
+                <p>2 courses</p>
                 <p>1 place</p>
                 <div className="row">
                 <div className="col-sm-3">
