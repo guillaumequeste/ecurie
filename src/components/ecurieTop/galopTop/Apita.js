@@ -13,7 +13,7 @@ class Apita extends Component {
           src={require("../../../img/Top/galopTop/apita/apita01.jpg")}
           alt="apita01"
         />
-
+        <p>1 course</p>
         <div className="row">
           <div className="col-sm-3">
             <img
