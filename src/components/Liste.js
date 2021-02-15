@@ -13,6 +13,7 @@ class Liste extends Component {
                 <div className="row rowListe">
                     <div className="col-sm-3">
                         <p><Link to="/al_rassoul" className="lienCheval">Al Rassoul</Link></p>
+                        <p><Link to="/apita" className="lienCheval">Apita</Link></p>
                         <p><Link to="/arancio" className="lienCheval">Arancio</Link></p>
                         <p><Link to="/trotteurs/auteur" className="lienCheval">Auteur</Link></p>
                         <p><Link to="/baldi_star" className="lienCheval">Baldi Star</Link></p>
@@ -26,9 +27,9 @@ class Liste extends Component {
                         <p><Link to="/claudia_eria" className="lienCheval">Claudia Eria</Link></p>
                         <p><Link to="/countess_allegro" className="lienCheval">Countess Allegro</Link></p>
                         <p><Link to="/trotteurs/cristal_pierji" className="lienCheval">Cristal Pierji</Link></p>
-                        <p><Link to="/dalkelef" className="lienCheval">Dalkelef</Link></p>
                     </div>
                     <div className="col-sm-3">
+                        <p><Link to="/dalkelef" className="lienCheval">Dalkelef</Link></p>
                         <p><Link to="/diva_du_dancing" className="lienCheval">Diva du Dancing</Link></p>
                         <p><Link to="/django_gibus" className="lienCheval">Django Gibus</Link></p>
                         <p><Link to="/domino_de_larre" className="lienCheval">Domino de Larré</Link></p>
@@ -43,11 +44,13 @@ class Liste extends Component {
                         <p><Link to="/gaby_oh_gaby" className="lienCheval">Gaby Oh Gaby</Link></p>
                         <p><Link to="/galante_d_arthel" className="lienCheval">Galante d'Arthel</Link></p>
                         <p><Link to="/gaspachos" className="lienCheval">Gaspacho's</Link></p>
-                        <p><Link to="/glasgow_allen" className="lienCheval">Glasgow Allen</Link></p>
                     </div>
                     <div className="col-sm-3">
+                        <p><Link to="/glasgow_allen" className="lienCheval">Glasgow Allen</Link></p>
                         <p><Link to="/gueule_de_loup" className="lienCheval">Gueule de Loup</Link></p>
-                        <p><Link to="/highlands" className="lienCheval">Highlands d'Allier</Link></p>
+                        <p><Link to="/highlands" className="lienCheval">Hola de Nappes</Link></p>
+                        <p><Link to="/hola_de_nappes" className="lienCheval">Highlands d'Allier</Link></p>
+                        <p><Link to="/honesta" className="lienCheval">Honesta</Link></p>
                         <p><Link to="/joly_and_bach" className="lienCheval">Joly and Bach</Link></p>
                         <p><Link to="/jurisprudance" className="lienCheval">Jurisprudance</Link></p>
                         <p><Link to="/kilava" className="lienCheval">Kilava</Link></p>
@@ -58,11 +61,11 @@ class Liste extends Component {
                         <p><Link to="/master_gold" className="lienCheval">Master Gold</Link></p>
                         <p><Link to="/mysaan" className="lienCheval">Mysaan</Link></p>
                         <p><Link to="/my_soul" className="lienCheval">My Soul</Link></p>
+                    </div>
+                    <div className="col-sm-3">
                         <p><Link to="/pan_di_stelle" className="lienCheval">Pan di Stelle</Link></p>
                         <p><Link to="/park_square" className="lienCheval">Park Square</Link></p>
                         <p><Link to="/pedregalejo" className="lienCheval">Pedregalejo</Link></p>
-                    </div>
-                    <div className="col-sm-3">
                         <p><Link to="/place_des_ternes" className="lienCheval">Place des Ternes</Link></p>
                         <p><Link to="/pont_marie" className="lienCheval">Pont Marie</Link></p>
                         <p><Link to="/race_for_fame" className="lienCheval">Race For Fame</Link></p>

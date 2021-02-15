@@ -3,45 +3,78 @@ import Header from './Header'
 import './Bilan.css'
 
 class Bilan extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            courses_2013: 107,
+            victoires_2013: 7,
+            places_2013: 38,
+            courses_2014: 191,
+            victoires_2014: 20,
+            places_2014: 84,
+            courses_2015: 78,
+            victoires_2015: 9,
+            places_2015: 36,
+            courses_rmc: 290,
+            victoires_rmc: 20,
+            places_rmc: 142,
+            courses_xxl: 78,
+            victoires_xxl: 9,
+            places_xxl: 34,
+            courses_top: 16,
+            victoires_top: 1,
+            places_top: 6
+        };
+        
+    }
   
     render () {
+        const reussite = (nb1, nb2, nb3) => {
+            return Math.round(((nb1 + nb2) / nb3) * 100)
+        };
+        const reussite_gagne = (nb1, nb2) => {
+            return Math.round((nb1 / nb2) * 100)
+        };
+        const total_courses = this.state.courses_2013 + this.state.courses_2014 + this.state.courses_2015 + this.state.courses_rmc + this.state.courses_xxl + this.state.courses_top;
+        const total_victoires = this.state.victoires_2013 + this.state.victoires_2014 + this.state.victoires_2015 + this.state.victoires_rmc + this.state.victoires_xxl + this.state.victoires_top;
+        const total_places = this.state.places_2013 + this.state.places_2014 + this.state.places_2015 + this.state.places_rmc + this.state.places_xxl + this.state.places_top;
         return (
             <div className="bodyBilan">
                 <Header />
                 <div className="divBilan">
                     <div className="result">
-                        <p className="pReussite"><strong>RMC 2013</strong> : 107 courses, 7 victoires, 38 places</p>
-                        <p className="reussite">42% de réussite (6,5% à la gagne)</p>
+                        <p className="pReussite"><strong>RMC 2013</strong> : {this.state.courses_2013} courses, {this.state.victoires_2013} victoires, {this.state.places_2013} places</p>
+                        <p className="reussite">{reussite(this.state.victoires_2013, this.state.places_2013, this.state.courses_2013)}% de réussite ({reussite_gagne(this.state.victoires_2013, this.state.courses_2013)}% à la gagne)</p>
                     </div>
                     <hr />
                     <div className="result result2">
-                        <p className="pReussite"><strong>RMC 2014</strong> : 191 courses, 20 victoires, 84 places</p>
-                        <p className="reussite">54,4% de réussite (5,7% à la gagne)</p>
+                        <p className="pReussite"><strong>RMC 2014</strong> : {this.state.courses_2014} courses, {this.state.victoires_2014} victoires, {this.state.places_2014} places</p>
+                        <p className="reussite">{reussite(this.state.victoires_2014, this.state.places_2014, this.state.courses_2014)}% de réussite ({reussite_gagne(this.state.victoires_2014, this.state.courses_2014)}% à la gagne)</p>
                     </div>
                     <hr />
                     <div className="result result2">
-                        <p className="pReussite"><strong>RMC 2015</strong> : 78 courses, 9 victoires, 36 places</p>
-                        <p className="reussite">57,6% de réussite (11,5% à la gagne)</p>
+                        <p className="pReussite"><strong>RMC 2015</strong> : {this.state.courses_2015} courses, {this.state.victoires_2015} victoires, {this.state.places_2015} places</p>
+                        <p className="reussite">{reussite(this.state.victoires_2015, this.state.places_2015, this.state.courses_2015)}% de réussite ({reussite_gagne(this.state.victoires_2015, this.state.courses_2015)}% à la gagne)</p>
                     </div>
                     <hr />
                     <div className="result result2">
-                        <p className="pReussite"><strong>Club RMC</strong> : 290 courses, 20 victoires, 142 places</p>
-                        <p className="reussite">55,8% de réussite (6,8% à la gagne)</p>
+                        <p className="pReussite"><strong>Club RMC</strong> : {this.state.courses_rmc} courses, {this.state.victoires_rmc} victoires, {this.state.places_rmc} places</p>
+                        <p className="reussite">{reussite(this.state.victoires_rmc, this.state.places_rmc, this.state.courses_rmc)}% de réussite ({reussite_gagne(this.state.victoires_rmc, this.state.courses_rmc)}% à la gagne)</p>
                     </div>
                     <hr />
                     <div className="result result2">
-                        <p className="pReussite"><strong>XXL</strong> : 77 courses, 9 victoires, 33 places</p>
-                        <p className="reussite">54,5% de réussite (11,7% à la gagne)</p>
+                        <p className="pReussite"><strong>XXL</strong> : {this.state.courses_xxl} courses, {this.state.victoires_xxl} victoires, {this.state.places_xxl} places</p>
+                        <p className="reussite">{reussite(this.state.victoires_xxl, this.state.places_xxl, this.state.courses_xxl)}% de réussite ({reussite_gagne(this.state.victoires_xxl, this.state.courses_xxl)}% à la gagne)</p>
                     </div>
                     <hr />
                     <div className="result result2">
-                        <p className="pReussite"><strong>Ecurie Top</strong> : 16 courses, 1 victoire, 6 places</p>
-                        <p className="reussite">43,75% de réussite (6,25% à la gagne)</p>
+                        <p className="pReussite"><strong>Ecurie Top</strong> : {this.state.courses_top} courses, {this.state.victoires_top} victoire, {this.state.places_top} places</p>
+                        <p className="reussite">{reussite(this.state.victoires_top, this.state.places_top, this.state.courses_top)}% de réussite ({reussite_gagne(this.state.victoires_top, this.state.courses_top)}% à la gagne)</p>
                     </div>
                     <hr />
                     <div className="result result2">
-                        <p className="pReussite"><strong>TOTAL</strong> : 761 courses, 66 victoires, 338 places</p>
-                        <p className="reussite">53% de réussite (8,7% à la gagne)</p>
+                        <p className="pReussite"><strong>TOTAL</strong> : {total_courses} courses, {total_victoires} victoires, {total_places} places</p>
+                        <p className="reussite">{reussite(total_victoires, total_places, total_courses)}% de réussite ({reussite_gagne(total_victoires, total_courses)}% à la gagne)</p>
                     </div>
                 </div>
             </div>
