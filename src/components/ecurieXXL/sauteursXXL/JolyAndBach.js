@@ -10,9 +10,9 @@ class JolyAndBach extends Component {
                 <Header />
                 <h1 className="nomCheval">Joly And Bach</h1>
                 <img className="imgDetailJolyAndBach" src={require("../../../img/XXL/sauteursXXL/joly/joly1.jpg")} alt="joly1"/>
-                <p>5 courses</p>
+                <p>6 courses</p>
                 <p>2 victoires à Paray-le-Monial et Strasbourg</p>
-                <p>1 place</p>
+                <p>2 places</p>
                 <div className="row">
                     <div className="col-sm-3">
                         <img className="imgDetail2" src={require("../../../img/XXL/sauteursXXL/joly/joly2.jpg")} alt="joly2"/>
