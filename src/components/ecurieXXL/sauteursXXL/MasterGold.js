@@ -10,8 +10,8 @@ class MasterGold extends Component {
                 <Header />
                 <h1 className="nomCheval">Master Gold</h1>
                 <img className="imgDetail" src={require("../../../img/XXL/sauteursXXL/master/master1.jpg")} alt="master1"/>
-                <p>6 courses</p>
-                <p>1 place</p>
+                <p>7 courses</p>
+                <p>2 places</p>
                 <div className="row">
                     <div className="col-sm-3">
                         <img className="imgDetail2" src={require("../../../img/XXL/sauteursXXL/master/master2.jpg")} alt="master2"/>
