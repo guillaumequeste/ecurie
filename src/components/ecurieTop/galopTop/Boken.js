@@ -13,6 +13,10 @@ class Boken extends Component {
           src={require("../../../img/Top/galopTop/boken/boken01.jpg")}
           alt="boken01"
         />
+         <p>1 course</p>
+        <div className="row">
+          
+        </div>
       </div>
     );
   }
