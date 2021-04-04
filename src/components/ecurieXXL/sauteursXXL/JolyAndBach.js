@@ -13,7 +13,7 @@ class JolyAndBach extends Component {
           src={require("../../../img/XXL/sauteursXXL/joly/joly1.jpg")}
           alt="joly1"
         />
-        <p>7 courses</p>
+        <p>8 courses</p>
         <p>2 victoires à Paray-le-Monial et Strasbourg</p>
         <p>2 places</p>
         <div className="row">
