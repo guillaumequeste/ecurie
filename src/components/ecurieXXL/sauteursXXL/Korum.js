@@ -10,8 +10,8 @@ class Korum extends Component {
                 <Header />
                 <h1 className="nomCheval">Korum</h1>
                 <img className="imgDetail" src={require("../../../img/XXL/sauteursXXL/korum/korum1.jpg")} alt="korum"/>
-                <p>8 courses</p>
-                <p>1 victoire à Lyon Parilly</p>
+                <p>9 courses</p>
+                <p>2 victoires à Lyon Parilly et Moulins</p>
                 <p>5 places</p>
                 <div className="row">
                     <div className="col-sm-3">
