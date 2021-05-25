@@ -13,8 +13,8 @@ class BellePromesse extends Component {
           src={require("../../../img/XXL/sauteursXXL/belle/belle1.jpg")}
           alt="belle_promesse"
         />
-        <p>12 courses</p>
-        <p>4 victoires à Bordeaux et Auteuil</p>
+        <p>13 courses</p>
+        <p>5 victoires à Bordeaux et Auteuil</p>
         <p>4 places</p>
         <div className="row">
           <div className="col-sm-3">
