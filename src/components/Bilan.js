@@ -18,10 +18,10 @@ class Bilan extends Component {
       courses_rmc: 290,
       victoires_rmc: 20,
       places_rmc: 142,
-      courses_xxl: 97,
+      courses_xxl: 98,
       victoires_xxl: 12,
-      places_xxl: 40,
-      courses_top: 25,
+      places_xxl: 41,
+      courses_top: 26,
       victoires_top: 2,
       places_top: 11
     };

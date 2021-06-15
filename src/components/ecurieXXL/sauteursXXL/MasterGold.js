@@ -13,8 +13,8 @@ class MasterGold extends Component {
           src={require("../../../img/XXL/sauteursXXL/master/master1.jpg")}
           alt="master1"
         />
-        <p>10 courses</p>
-        <p>5 places</p>
+        <p>11 courses</p>
+        <p>6 places</p>
         <div className="row">
           <div className="col-sm-3">
             <img
