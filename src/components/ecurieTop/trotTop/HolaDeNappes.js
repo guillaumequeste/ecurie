@@ -13,7 +13,7 @@ class HolaDeNappes extends Component {
           src={require("../../../img/Top/trotTop/hola/hola01.jpg")}
           alt="hola01"
         />
-        <p>10 courses</p>
+        <p>11 courses</p>
         <p>6 places</p>
         <div className="row"></div>
       </div>
