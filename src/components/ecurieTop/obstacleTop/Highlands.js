@@ -10,7 +10,7 @@ class Highlands extends Component {
                 <Header />
                 <h1 className="nomCheval">Highlands d'Allier</h1>
                 <img className="imgDetail" src={require("../../../img/Top/obstacleTop/highlands/highlands01.jpg")} alt="highlands01"/>
-                <p>6 courses</p>
+                <p>7 courses</p>
                 <p>2 victoires à Cagnes-sur-Mer et Bordeaux-le-Bouscat</p>
                 <p>3 places</p>
                 <div className="row">
