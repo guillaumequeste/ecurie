@@ -13,9 +13,9 @@ class Korum extends Component {
           src={require("../../../img/XXL/sauteursXXL/korum/korum1.jpg")}
           alt="korum"
         />
-        <p>11 courses</p>
+        <p>12 courses</p>
         <p>2 victoires à Lyon Parilly et Moulins</p>
-        <p>5 places</p>
+        <p>6 places</p>
         <div className="row">
           <div className="col-sm-3">
             <img
