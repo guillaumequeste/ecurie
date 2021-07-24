@@ -14,7 +14,8 @@ class MasterGold extends Component {
           alt="master1"
         />
         <p>11 courses</p>
-        <p>6 places</p>
+        <p>1 victoire à Auteuil</p>
+        <p>5 places</p>
         <div className="row">
           <div className="col-sm-3">
             <img
