@@ -13,8 +13,8 @@ class Honesta extends Component {
           src={require("../../../img/Top/obstacleTop/honesta/honesta01.jpg")}
           alt="honesta01"
         />
-        <p>4 courses</p>
-        <p>3 places</p>
+        <p>5 courses</p>
+        <p>4 places</p>
         <div className="row">
           <div className="col-sm-3">
             <img
