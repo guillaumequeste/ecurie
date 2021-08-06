@@ -17,7 +17,7 @@ class Contact extends Component {
           >
             http://www.guillaumequeste.fr
           </a>
-          <h6 className="maj">date de mise à jour : 1er août 2021</h6>
+          <h6 className="maj">date de mise à jour : 6 août 2021</h6>
         </div>
       </div>
     );

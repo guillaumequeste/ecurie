@@ -13,8 +13,8 @@ class Boken extends Component {
           src={require("../../../img/Top/galopTop/boken/boken01.jpg")}
           alt="boken01"
         />
-         <p>5 courses</p>
-         <p>2 places</p>
+         <p>6 courses</p>
+         <p>3 places</p>
         <div className="row">
           
         </div>
